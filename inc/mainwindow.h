@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -15,7 +16,16 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+
+    void on_button_back_clicked();
+
+    void on_button_next_clicked();
+
+    void on_button_exit_clicked();
+
 private:
+    int page=0;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

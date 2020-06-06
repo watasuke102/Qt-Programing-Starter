@@ -9,7 +9,7 @@ This repository is Qt software remade of [this.](https://github.com/watasuke102/
 
 ## 何ができるの/What can this do?
 プログラミング環境構築アシストウィザードです。プログラミング言語、エディターを選択し、それをインストールできます（Arch系のみ）  
-OpenSiv3Dでは動作しない環境があるので、Qtで書き直しています。
+OpenSiv3Dでは動作しない環境があるので、Qtで書き直しています。  
 This is wizard which can assist building programing enviroment. Choose programing language and editor, and this wizard will install them on Arch Linux(Manjaro/Alter Linux and other Arch derived distribution).  
 
 ## どうやって使うの/How to use
